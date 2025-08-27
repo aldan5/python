@@ -26,11 +26,17 @@
 #     else:
 #         print("nama tidak valid")
 
-# table
+# struk
+print("---STRUK PEMBAYARAN-----")
 print("-" * 30)    
 print(f"{"barang":<10} {"jumlah":<10} {"harga":<5}")
 print("-" * 30)
 print(f"{"mangga":<10} {"4":^7} {"30000":>8}")
+print(f"{"mangga":<10} {"4":^7} {"30000":>8}")
+print(f"{"mangga":<10} {"4":^7} {"30000":>8}")
+print(f"{"mangga":<10} {"4":^7} {"30000":>8}")
+print("-" * 30)
+
 
 
    
