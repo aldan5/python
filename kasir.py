@@ -15,8 +15,6 @@ while True:
         print(f"pcs : {jm}")
         print(f"price : {hr}")
         print(f"total sebesar Rp.{tot:,}")
-        
-    # *masukkan tabel untuk total belanjaan*
     elif(qw == 'stop'): 
         print(f"brg : {bg}")
         print(f"pcs : {jm}")
@@ -26,16 +24,7 @@ while True:
     else:
         print("nama tidak valid")
 
-# struk
-print("---STRUK PEMBAYARAN-----")
-print("-" * 30)    
-print(f"{"barang":<10} {"jumlah":<10} {"harga":<5}")
-print("-" * 30)
-print(f"{"mangga":<10} {"4":^7} {"30000":>8}")
-print(f"{"mangga":<10} {"4":^7} {"30000":>8}")
-print(f"{"mangga":<10} {"4":^7} {"30000":>8}")
-print(f"{"mangga":<10} {"4":^7} {"30000":>8}")
-print("-" * 30)
+
 
 
 
