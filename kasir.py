@@ -15,16 +15,18 @@ while True:
     print(f'Total Keseluruhan {tot:,}')
     qw = input("apakah masih ada? : ")
     if(qw == 'lanjut'):
-        print(f"Tot : {hasil:,}")
-        print(f"total sebesar Rp.{tot:,}")
+        # print(f"Tot : {hasil:,}")
+        # print(f"total sebesar Rp.{tot:,}")
+        pass
     elif(qw == 'stop'):
         print("      ")
         print("-" * 30)   
         print("-------STRUK PEMBAYARAN-------")
         print("-" * 30)
-        print(f"{"barang":<10} {"jumlah":<10} {"harga":<5} {"total":<10}")
+        print(f"{"barang":<10} {"jumlah":<10} {"harga":<5}")
         print("-" * 30)
-        print(f"{bg:<10} {jm:<10} {hr:<5}")
+        for it in struks:
+            print(f"{it[0]:<10} {it[1]:<10} {it[2]:<5} ")
         break
     else:
         print("nama tidak valid")
